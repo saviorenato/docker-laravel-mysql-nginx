@@ -1,11 +1,10 @@
-# Laravel + Docker
+# PHP + Docker
 
 An project open source, for Laravel development environments with Docker. 
 
 Take a look to Containerized Nginx, Laravel and MySQL with Docker Compose.
 
-- Laravel
-  - PHP 7.4
+- PHP 7.4
 - Nginx
 - MySQL
 - Make
