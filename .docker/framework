@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# Ask the user for their name
+green='\033[0;32m'
+NC='\033[0m' # No Color
+
+while true; 
+do
+    echo "${green}[Framework] Which framework do you want to install ${NC}"
+    echo "${green}===> [ 1 ] Laravel ${NC}"
+    echo "${green}===> [ 2 ] CodeIgniter 3 ${NC}"
+    echo "${green}===> [ 2 ] CodeIgniter 4 ${NC}"
+    read n
+    if [ $n -eq 1 ];
+    then
+        echo "This is first number"
+    elif [ $n -eq 2 ];
+    then
+        echo " This is second number "
+    elif [ $n -eq 3 ];
+    then
+        echo " This is third number "
+    else
+        echo "No numbers over here"
+    fi
+done
